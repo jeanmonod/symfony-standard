@@ -12,3 +12,10 @@ web_profiler:
 
 swiftmailer:
     disable_delivery: true
+
+framework:
+    test: ~
+    session:
+        storage_id: session.storage.filesystem
+
+liip_functional_test: ~
